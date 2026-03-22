@@ -4,7 +4,7 @@ console.log(name);
 console.log(name[0]);
 console.log(name[10]);
 
-//string Methods
+//string Methods  
 
 //1.length of the string -->returns how many characters are in the string
 console.log(name.length);
@@ -42,7 +42,7 @@ console.log(str.replace("h","b"))
 console.log(str.replaceAll("lo","p"))
 
 //trim() --> removes extra spaces from start and end
-let txt = "      hello     to       world      "
+let txt1  = "      hello     to       world      "
 console.log(txt.trim())
 
 
