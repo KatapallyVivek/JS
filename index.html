@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>document</title>
+</head>
+<body>
+
+  <h1 id="title">hello</h1>
+  <button onclick="changeText()">click me to change</button>
+
+  <br><br>
+
+  <div id="container"></div>
+  <button onclick="addElement()">add Element</button>
+
+  <br><br>
+
+  <p id="remov">byeee</p>
+  <button onclick="removeElement()">Remove</button>
+
+</body>
+
+<script>
+function changeText() {
+  document.getElementById("title").innerText = "Changed!";
+}
+
+function addElement() {
+  let el = document.createElement("p");
+  el.innerText = "this is paragraph";
+  document.getElementById("container").appendChild(el);
+}
+
+function removeElement() {
+  document.getElementById("remov").remove();
+}
+</script>
+</html
