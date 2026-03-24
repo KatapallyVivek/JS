@@ -1,4 +1,5 @@
 /* function:
+
 It is a block of code that performs a task when it is called
 instead of writing the same code many times we write it once in a function and reuse it*/
 
@@ -62,6 +63,7 @@ console.log(mul(1,5))
 //short Arrow function
 const sq = num => num * num;
 console.log(sq(6))
+
 
 // const sq = (num) => {
 //     return num * num
