@@ -13,7 +13,7 @@ function greet(){
 }
 greet();
 greet();
-greet();n
+greet();
 greet();
 
 //function with Parameters

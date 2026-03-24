@@ -1,12 +1,14 @@
 //strings-simple text and written inside quotes
+
 let name = "Mounika"
 console.log(name);
 console.log(name[0]);
 console.log(name[10]);
 
+
 //string Methods  
 
-//1.length of the string -->returns how many characters are in the string
+//length of the string --> returns how many characters are in the string
 console.log(name.length);
 
 //ex2: 
@@ -46,3 +48,12 @@ let txt1  = "      hello     to       world      "
 console.log(txt.trim())
 
 
+
+//Template Literals
+let name1 = `vivek`
+console.log(name1)
+
+//ex 2:
+let greet = "hellooo"
+let msg = `${greet} mounika`
+console.log(msg)
