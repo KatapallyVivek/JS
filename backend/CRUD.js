@@ -16,7 +16,7 @@ function readFile() {
     let data = fs.readFileSync('data.txt', 'utf-8');
     console.log(data);
 }
-readFile();
+// readFile();
 
 //updating a file --> appendFileSync
 function updateFile() {
@@ -24,7 +24,7 @@ function updateFile() {
     console.log("the file has updated");
 }
 
-updateFile();
+// updateFile();
 
 //deleting a file --> unLinkSync
 function deleteFile() {
@@ -32,4 +32,4 @@ function deleteFile() {
     console.log("The file has been deleted");
 }
 
-deleteFile();
+// deleteFile();
